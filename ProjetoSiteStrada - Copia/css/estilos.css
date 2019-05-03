@@ -1,0 +1,414 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("../imagens/fundo4.jpg");
+	background-attachment: fixed;
+	font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+	color: white;
+}
+
+h1, h2, p, ul, li {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+h3 {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+p {
+	font-size: 1.4em;
+	line-height: 1.4em;
+	text-align: justify;
+}
+
+ul {
+	list-style-type: none;
+}
+a:link, a:visited {
+	color: white;
+	background: gray;
+}
+.link2{
+	color: blue;
+	background: blue;
+}
+a:hover {
+	color: #0098DA;
+}
+
+nav  {
+	background:BLACK;
+	font-size: 1em;
+	color:white;
+	}
+
+nav h1 {
+    color: white;
+
+}
+
+nav ul{
+	padding: 10px;
+	margin: 0px 0px 0px 0px;
+	font-size: 1em;
+	font-weight: bolder;
+	color: white;
+}
+
+/* menu */
+nav ul.menu 
+{  list-style:none;  
+   float:left; 
+   font-size: 32px;
+   margin-left: 130px;
+  
+}
+.menu li{
+position:relative; 
+float:center; 
+}
+.menu li a:hover{ 
+color:#0098DA; 
+text-shadow: 0.5px 0.5px 5px white; 
+}
+.menu li  ul{
+position:absolute; 
+top:25px; 
+left:0; 
+display:none;
+font-size:22px;
+padding-top: 0%;
+margin-top: 2%;
+margin-left: -128%;
+width:100px;
+}   
+.menu li:hover ul, .menu li.hover ul{display:block;}
+.menu li ul li{/* */
+display:block; 
+width:200px;
+font-size:22px;
+margin-left: 50.5%;
+width:500px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 40px;
+	color:white;
+	}
+
+nav li a {
+	color: white;
+	text-decoration: none;
+}
+nav li a:link,nav li a:visited{
+	text-decoration:none;
+	}
+
+	
+section{
+	margin: auto;
+	background-color:gray;
+	width: 1060px; 
+	border: 10px black;
+}
+
+article {
+	width: 600px;
+	margin: 20px 0 20px 0;
+	padding: 10px;
+	
+}
+
+article.contato {
+	height:700px;
+}
+
+article a.link{
+	text-align: center;
+	font-size: 28px;
+}
+
+.paginainicial{
+	position:right;
+	width:310px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+	 margin-top:120px;
+	 margin-left:570px;
+	 margin-bottom:100px;
+	 background-color: black;
+
+}
+.fatec{
+	position:right;
+	width:310px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+	 margin-top:150px;
+	 margin-left:555px;
+	 margin-bottom:100px;
+	 background-color: gray;
+
+}
+
+
+
+article {
+	float: left;
+	opacity:0,8px;
+	width: 50%;
+}
+
+.sobre{
+	width: 98%;
+}
+
+article h2,h1 {
+	font-size: 2.5em;
+	margin: 0 0 10px 90px;
+	color: black;
+	font-family: arial black;
+	
+}
+
+article p {
+	margin: 0 0 10px 0;
+	color: black;
+}
+
+article ul {
+	margin: 20px 0 0 0;
+	font-size: 1.4em;
+}
+
+article ul  li {
+	margin: 0 0 10px 0;
+}
+
+
+footer p{
+	clear: both;
+	background: #eee;
+	padding: 10px;
+	border-top: 2px solid #ddd;
+	text-align: center;
+	color: #777;
+	text-align: center;
+}
+section aside{
+	background-color: white;
+	
+}
+
+header img {
+	width: 1060px;
+	height: 290px;
+}
+
+/* contato */
+
+input, textarea, select{
+display: block;
+margin-bottom: 10px;
+height:30px;
+}
+
+.asside{
+	width: 46%;
+	padding-left:10px;
+	padding-bottom: 35px;
+	float: left;
+	background-color: gray;
+}
+.imagemcontato{
+	float: left;
+	width: 150px;
+	padding-left:110px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin: 50px;
+}
+.imagemcontato2{
+	float: left;
+	width: 150px;
+	padding-left:160px;
+	padding-bottom: 20px;
+	margin: 10px;
+}
+
+.minhafoto{
+	width: 470px;
+	height:410px;
+	float: center;
+	 margin-top:20px;
+	 margin-left:10px;
+
+}
+
+.tamanhodaletraformulario{
+font-size:27px;
+}
+
+input.dis_inline{
+display:inline-block;
+}
+
+.materias{
+	width: 1030px;
+	float: left;
+}
+
+.imagem{
+	float: left;
+	width: 350px;
+	margin-right: 15px;
+}
+
+
+
+/* slide fotos fatec */
+.banner {
+  width: 160%;
+  height: 380px;
+  box-shadow: 1px 1px 10px 2px gray;
+  border-radius: 15px;
+  background-repeat: round;
+  background-size: cover;
+  position: right;
+  right: 80px;
+  top: 300px;
+  
+  animation: slide 40s infinite;
+  animation-direction: alternate;
+ 
+}
+@keyframes slide {
+  0%, 10% {
+    background-image: url(../imagens/fatec.jpg);
+  }
+  10%, 20% {
+    background-image: url(../imagens/fatec2.jpg);
+  }
+  20%, 30% {
+    background-image: url(../imagens/fatec3.jpg);
+  }
+  30%, 40% {
+    background-image: url(../imagens/fatec4.jpg);
+  }
+  40%, 50% {
+    background-image: url(../imagens/fatec5.jpg);
+  }
+   50%, 60% {
+    background-image: url(../imagens/fatec6.jpg);
+  }
+   60%, 70% {
+    background-image: url(../imagens/fatec7.jpg);
+  }
+  70%, 80% {
+    background-image: url(../imagens/fatec8.jpg);
+  }
+  80%, 100% {
+    background-image: url(../imagens/fatec9.jpg);
+  }
+}
+
+.fotovirgilio{
+	position: ;background-blend-moder
+}
+
+.imagensprofessores{
+	float: left;
+	width: 170px;
+	height: 170px;
+	margin: 10px;
+	margin-top: 30px;
+}
+
+.imagenscriacao{
+	width: 1040px;
+	float: center;
+}
+
+.titulomateria{
+	font-size: 3.5em;
+}
+
+.imagemalgoritimo{
+	margin-left: 200px;
+}
+
+.imagemalgoritimo2{
+	margin-left: 230px;
+}
+
+.imagemalgoritimo3{
+	margin-left: 230px;
+}
+
+.imagemalgoritimo4{
+	margin-left: 230px;
+}
+
+.imagemalgoritimo5{
+	margin-left: 310px;
+}
+
+.fotopinguin{
+	width: 1040px;
+}
+
+.fotocartao{
+	width: 1040px;
+}
+
+.fotosdesign{
+	width: 1040px;
+}
+
+.fotosdesign1{
+	width: 400px;
+	margin: 55px;
+}
+
+.fotomatematica{
+	width: 1010px;
+}
+
+.imagenportugues{
+	width: 25%;
+	float: left;
+	margin-right: 10px;
+}
+
+.imagenscriacao1{
+	width: 40%;
+	float: left;
+	margin-right: 10px;
+}
+
+.observacao{
+	float: left;
+}
+
+.paragrafo{
+	text-align: center;
+	position:relative;
+	left:270px;
+	font-size: 25px;
+}
+
+.paragrafo2{
+	font-size: 3.5em;
+	position:relative;
+	left:220px;
+}
