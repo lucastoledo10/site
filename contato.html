@@ -3,46 +3,75 @@
 <head>
     <title> Contato </title>
 	<meta charset="UTF-8"/>
-	<link rel="stylesheet" href="css/estilos.css" type="text/css" media="all" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="JavaScript/topo.js"></script>
 </head>
-<body>
-	
+<body>	
  	<section> 
         <header>
 			<img alt="Logotipo do site"  src="imagens/logotoledotech.png"/>
         </header>
-		<nav>
-  <ul class="menu">
-       <li><a href="index.html">Início</a></li>
-            <li><a> Disciplinas </a>
-                <ul>
-					  <li><a href="materiaalgoritimos.html"> Algoritimos</a></li>
-					  <li><a href="materiabases.html"> Bases Para Internet</a></li>
-					  <li><a href="materiacriacao.html"> Criação de Conteúdo na Web </a></li>
-					  <li><a href="materiadesign.html"> Design Digital</a></li>
-					  <li><a href="materiamatematica.html"> Fundamentos de Matemática Elementar</a></li>
-					  <li><a href="materiapadroes.html"> Padrões de Projeto de Sítios Internet I </a></li>
-					  <li><a href="materiaportugues.html"> Leitura e Produção de Textos </a></li>
-					  <li><a href="materiaingles.html"> Inglês </a></li>
-                </ul>
-            </li>
-        <li><a href="instituicao.html">Instituição</a></li>
-        <li><a href="contato.html">Contato</a></li>                
+
+        <!--menu-->
+		<nav class="menu">
+  	<ul>
+        <li>
+        	<a href="index.html">Início</a>
+        </li>
+        <li>
+            <a> Disciplinas </a>
+    <ul>
+		<li>
+			<a href="materiaalgoritimos.html"> Algoritimos</a>
+		</li>
+		<li>
+			<a href="materiabases.html"> Bases Para Internet</a>
+		</li>
+		<li>
+			<a href="materiacriacao.html"> Criação de Conteúdo na Web </a>
+		</li>
+		<li>
+			<a href="materiadesign.html"> Design Digital</a>
+		</li>
+		<li>
+			<a href="materiamatematica.html"> Fundamentos de Matemática Elementar</a>
+		</li>
+		<li>
+			<a href="materiapadroes.html"> Padrões de Projeto de Sítios Internet I </a>
+		</li>
+		<li>
+			<a href="materiaportugues.html"> Leitura e Produção de Textos </a>
+		</li>
+		<li>
+			<a href="materiaingles.html"> Inglês </a>
+		</li>
+    </ul>
+        </li>
+        <li>
+        	<a href="instituicao.html">Instituição</a>
+        </li>
+        <li>
+        	<a href="contato.html">Contato</a>
+        </li>                
 	</ul>
-	</nav>
+		</nav>
+		<!--/menu-->
 
-	    <article>
-		   <h1> Contato </h1>
+	<!--conteúdo principal -->	
+	<article>
 
-            <p> Ficarei contente caso queira contatar-me!</p>
+		   <h2> Contato </h2>
 
-            
+            <p> Ficarei contente caso queira contatar-me!</p>           
 	
-           <fieldset>
+	<!--Formulário de Contato-->
+        <fieldset>
+
 				<legend>Dados pessoais </legend>
 
 				<br/>
-
 			
 				<label class="tamanhodaletraformulario" for="nome">Nome:<label>
 				<input type="text" id="nome" name="nome" maxlength="40" size="42"placeholder="Digite aqui seu nome"/>
@@ -68,14 +97,22 @@
 				<input class="dis_inline" type="submit" value="enviar"/>			
 		</fieldset>
 
-		
-            <a href="https://www.facebook.com/lucaspavaot?ref=bookmarks"><img class="contato" alt="logo Facebook"  src="imagens/logofacebook.png"></a>
+		<!--Div que irá centralizar as imagens abaixo do formulário-->
+			<div class="contato">
+            <a href="https://www.facebook.com/lucaspavaot?ref=bookmarks"><img alt="logo Facebook"  src="imagens/logofacebook.png"></a>
+        	
 
-       		<a href="https://api.whatsapp.com/send?l=pt_pt&phone=5517996596405"><img class="contato" src="imagens/logowhatsapp.png"></a>
-       				
-       </article>
+       		<a href="https://api.whatsapp.com/send?l=pt_pt&phone=5517996596405"><img src="imagens/logowhatsapp.png"></a>
+       		</div>
+
+    </article>
+
+    <!--Rodapé-->
        <footer>
             <p>Copyright &copy; Lucas Toledo 2018, todos os direitos reservados.</p>
+
+    <!--Imagem do botão "back to top"-->        
+            <a id="topo"><img src="imagens/topo.png"></a>
 		</footer>	
     </section>
 </body>

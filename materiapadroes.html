@@ -3,68 +3,85 @@
 <head>
     <title> Pradrões </title>
 	<meta charset="UTF-8"/>
-	<link rel="stylesheet" href="css/estilos.css" type="text/css" media="all" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/estilos.css" type="text/css" media="all">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="JavaScript/topo.js"></script>
 </head>
 <body>
 	
  	<section> 
         <header>
 			<img alt="Logotipo do site"  src="imagens/logotoledotech.png"/>
-        </header>
-		<nav>
-  <ul class="menu">
-        <li><a href="index.html">Início</a></li>
-            <li><a> Disciplinas </a>
-                <ul>
-					  <li><a href="materiaalgoritimos.html"> Algoritimos</a></li>
-					  <li><a href="materiabases.html"> Bases Para Internet</a></li>
-					  <li><a href="materiacriacao.html"> Criação de Conteúdo na Web </a></li>
-					  <li><a href="materiadesign.html"> Design Digital</a></li>
-					  <li><a href="materiamatematica.html"> Fundamentos de Matemática Elementar</a></li>
-					  <li><a href="materiapadroes.html"> Padrões de Projeto de Sítios Internet I </a></li>
-					  <li><a href="materiaportugues.html"> Leitura e Produção de Textos </a></li>
-					  <li><a href="materiaingles.html"> Inglês </a></li>
-                </ul>
-            </li>
-        <li><a href="instituicao.html">Instituição</a></li>
-        <li><a href="contato.html">Contato</a></li>                
+        </header><!--menu-->
+		<nav class="menu">
+  	<ul>
+        <li>
+        	<a href="index.html">Início</a>
+        </li>
+        <li>
+            <a> Disciplinas </a>
+    <ul>
+		<li>
+			<a href="materiaalgoritimos.html"> Algoritimos</a>
+		</li>
+		<li>
+			<a href="materiabases.html"> Bases Para Internet</a>
+		</li>
+		<li>
+			<a href="materiacriacao.html"> Criação de Conteúdo na Web </a>
+		</li>
+		<li>
+			<a href="materiadesign.html"> Design Digital</a>
+		</li>
+		<li>
+			<a href="materiamatematica.html"> Fundamentos de Matemática Elementar</a>
+		</li>
+		<li>
+			<a href="materiapadroes.html"> Padrões de Projeto de Sítios Internet I </a>
+		</li>
+		<li>
+			<a href="materiaportugues.html"> Leitura e Produção de Textos </a>
+		</li>
+		<li>
+			<a href="materiaingles.html"> Inglês </a>
+		</li>
+    </ul>
+        </li>
+        <li>
+        	<a href="instituicao.html">Instituição</a>
+        </li>
+        <li>
+        	<a href="contato.html">Contato</a>
+        </li>                
 	</ul>
-	</nav>
-	     <article class="materias">
+		</nav>
+		<!--/menu-->
 
-	     	<h1 class="titulomateria"> Padrões de Projeto de Sítios Internet I </h1>
+		<!--Conteúdo principal -->
+	     <article>
 
-	     		<br/>
-            			
+	     	<h2> Padrões de Projeto de Sítios Internet I </h2>
+
             <h2> Objetivos da matéria:</h2>
 
-            	<br/>
-            	<br/>
-
             	<p>Apresentar os fundamentos do HTML (Hypertext Markup Language) com ênfase na semântica do uso dos elementos e nos benefícios do emprego de padrões de codificação. Demonstrar uso do CSS (Cascading Style Sheets) para separar conteúdo e apresentação, de maneira a minimizar tempo de manutenção, aumentar a velocidade do desenvolvimento e desenvolver as habilidades de design. Objetivos específicos. Os estudantes deverão ser capazes de: construir páginas Web por meio do HTML e validá-las no validador do W3C, quando for o caso. Empregar o CSS para todas as apresentações. Criar uma estrutura de diretórios adequada para sítios Internet visando a facilidade de manutenção. Saber empregar FTP para transferir arquivos para o servidor. Construir formulários de contato. Empregar um script fornecido. Criar um sítio completo com várias páginas com todos os elementos de design, HTML e CSS estudados no curso.</p>
-
-            	<br/>
-
-            <H2>Este site, é inpirado na matéria!</H1>
-
-            	<br/>
-            	<br/>
-            	<br/>
+            	
+            <H2>Este site, é inspirado na matéria!</H1>
 
 			<h2>Profº Alexandre Aparecido Bernardes</h2>
-
-				<br/>
             
+    			<!--Foto do Professor Alexandre B. -->        
 				<img class="imagensprofessores" alt="Logotipo do site"  src="imagens/proalexandre.jpg"/>
 				
-				<br/>
-				<br/>
-
            	 	<p>Mestre em Ciência da Computação na Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP de São José do Rio Preto (2011). Possui graduação em Tecnologia em Processamento de Dados pela Universidade Paulista (1998), especialização em Desenvolvimento de Sistemas Sob a Tecnologia	Cliente/Servidor e Internet pelo Centro Universitário de Rio Preto (2002) e formação pedagógica para docente pela Faculdade de Tecnologia de Sorocaba (2008). É Professor e Coordenador da Faculdade de Tecnologia de Jales Prof. José Camargo - FATEC e Professor da Escola Técnica de Fernandópolis - ETEC Prof. Armando José Farinazzo. Tem experiência na área de Ciência da Computação, com ênfase em Processamento de Imagens e Visão Computacional. Conhecedor das áreas de Banco de Dados, Desenvolvimento de Sites, Engenharia de Software, Algoritmos e Estrutura de Dados. </p>
 		   
        </article> 
+       <!--/Conteúdo principal --> 
 		<footer>
             <p>Copyright &copy; Lucas Toledo 2018, todos os direitos reservados.</p>
+            <!--Imagem do botão "back to top" -->
+            <a id="topo"><img src="imagens/topo.png"></a>
 		</footer>	
     </section>
 </body>

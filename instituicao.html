@@ -3,7 +3,10 @@
 <head>
     <title> Instituição </title>
 	<meta charset="UTF-8"/>
-	<link rel="stylesheet" href="css/estilos.css" type="text/css" media="all" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="JavaScript/topo.js"></script>
 </head>
 <body>
 	
@@ -11,54 +14,84 @@
         <header>
 			<img alt="Logotipo do site"  src="imagens/logotoledotech.png"/>
         </header>
-		<nav>
-  <ul class="menu">
-       <li><a href="index.html">Início</a></li>
-            <li><a> Disciplinas </a>
-                <ul>
-					  <li><a href="materiaalgoritimos.html"> Algoritimos</a></li>
-					  <li><a href="materiabases.html"> Bases Para Internet</a></li>
-					  <li><a href="materiacriacao.html"> Criação de Conteúdo na Web </a></li>
-					  <li><a href="materiadesign.html"> Design Digital</a></li>
-					  <li><a href="materiamatematica.html"> Fundamentos de Matemática Elementar</a></li>
-					  <li><a href="materiapadroes.html"> Padrões de Projeto de Sítios Internet I </a></li>
-					  <li><a href="materiaportugues.html"> Leitura e Produção de Textos </a></li>
-					 <li><a href="materiaingles.html"> Inglês </a></li>
-                </ul>
-            </li>
-        <li><a href="instituicao.html">Instituição</a></li>
-        <li><a href="contato.html">Contato</a></li>                
-	</ul>
-	</nav>
-	    <article>
 
-		   <h2>Fatec Jales</h2>
-            
-          
+        <!--menu-->
+    <nav class="menu">
+  <ul>
+      <li>
+          <a href="index.html">Início</a>
+        </li>
+      <li>
+          <a> Disciplinas </a>
+  <ul>
+      <li>
+        <a href="materiaalgoritimos.html"> Algoritimos</a>
+      </li>
+      <li>
+      <a href="materiabases.html"> Bases Para Internet</a>
+      </li>
+      <li>
+        <a href="materiacriacao.html"> Criação de Conteúdo na Web </a>
+      </li>
+      <li>
+        <a href="materiadesign.html"> Design Digital</a>
+      </li>
+      <li>
+        <a href="materiamatematica.html"> Fundamentos de Matemática Elementar</a>
+      </li>
+      <li>
+        <a href="materiapadroes.html"> Padrões de Projeto de Sítios Internet I </a>
+      </li>
+      <li>
+        <a href="materiaportugues.html"> Leitura e Produção de Textos </a>
+      </li>
+      <li>
+        <a href="materiaingles.html"> Inglês </a>
+      </li>
+  </ul>
+      </li>
+      <li>
+          <a href="instituicao.html">Instituição</a>
+      </li>
+       <li>
+          <a href="contato.html">Contato</a>
+      </li>                
+  </ul>
+    </nav>
+    <!--/menu-->
 
-          <p>A Fatec é uma instituição de ensino estadual, no qual pertence ao Centro Paula Souza.</p>
+  <!--conteúdo principal -->  
+  <article>
 
-				  <p> Muito conhecida em toda a região por ter profissionais capacitados e ótima qualidade de ensino e possuir equipamentos de ultima linha para atender aos alunos.</p>
-	
-            	<p> Hoje, são disponiveis as graduações de:</p>
+		<h2>Fatec Jales</h2>
 
-            	<p>- Análise e Desenvolvimento de Sistemas</p>
-           		<p>- Agronegócio</p>
-           		<p>- Gestão Empresarial</p>
-           		<p>- Gestão Empresarial (EAD)</p>
-           		<p>- Sistemas Para Internet</p>
+      <p>A Fatec é uma instituição de ensino estadual, no qual pertence ao Centro Paula Souza.</p>
+      <p> Muito conhecida em toda a região por ter profissionais capacitados e ótima qualidade de ensino e possuir equipamentos de ultima linha para atender aos alunos.</p>	
+      <p> Hoje, são disponiveis as graduações de:</p>
+      <p>- Análise e Desenvolvimento de Sistemas</p>
+      <p>- Agronegócio</p>
+      <p>- Gestão Empresarial</p>
+      <p>- Gestão Empresarial (EAD)</p>
+      <p>- Sistemas Para Internet</p>
+		  <p> Abaixo, podemos ver algumas fotos das instalações:</p>
+         
+      <!--Div que irá conter o carrossel de imagens da Fatec Jales-->
+        <div class="banner"></div>
 
-				  <p> Abaixo, podemos ver algumas fotos das instalações:</p>
-          <div class="banner"></div>
-        <a class="link" href=http://www.fatecjales.edu.br/> Acesse o site e confira!</a>
+      <!--Div que irá centralizar o site para a Fatec Jales-->  
+        <div class="site">
 
-       </article>
-       
-       	 
-      
-		<footer>
+      <!--link de acesso para a Fatec Jales-->      
+        <a class="linkfatec" href=http://www.fatecjales.edu.br/> Acesse o site e confira!</a>
+        </div>
+    </article>
+
+      <!--Rodapé -->
+      <footer>
             <p>Copyright &copy; Lucas Toledo 2018, todos os direitos reservados.</p>
-		</footer>	
-    </section>
+      <!--Imagem do botão "back to top"-->      
+            <a id="topo"><img src="imagens/topo.png"></a>
+		  </footer>	
+  </section>
 </body>
 </html>

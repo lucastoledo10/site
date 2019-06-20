@@ -3,7 +3,10 @@
 <head>
     <title> Portuguêss </title>
 	<meta charset="UTF-8"/>
-	<link rel="stylesheet" href="css/estilos.css" type="text/css" media="all" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/estilos.css" type="text/css" media="all">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+ 	<script src="JavaScript/topo.js"></script>
 </head>
 <body>
 	
@@ -11,59 +14,85 @@
         <header>
 			<img alt="Logotipo do site"  src="imagens/logotoledotech.png"/>
         </header>
-		<nav>
-  <ul class="menu">
-        <li><a href="index.html">Início</a></li>
-            <li><a> Disciplinas </a>
-                <ul>
-					  <li><a href="materiaalgoritimos.html"> Algoritimos</a></li>
-					  <li><a href="materiabases.html"> Bases Para Internet</a></li>
-					  <li><a href="materiacriacao.html"> Criação de Conteúdo na Web </a></li>
-					  <li><a href="materiadesign.html"> Design Digital</a></li>
-					  <li><a href="materiamatematica.html"> Fundamentos de Matemática Elementar</a></li>
-					  <li><a href="materiapadroes.html"> Padrões de Projeto de Sítios Internet I </a></li>
-					  <li><a href="materiaportugues.html"> Leitura e Produção de Textos </a></li>
-					  <li><a href="materiaingles.html"> Inglês </a></li>
-                </ul>
-            </li>
-        <li><a href="instituicao.html">Instituição</a></li>
-        <li><a href="contato.html">Contato</a></li>                
+
+        <!--menu-->
+		<nav class="menu">
+  	<ul>
+        <li>
+        	<a href="index.html">Início</a>
+        </li>
+        <li>
+            <a> Disciplinas </a>
+    <ul>
+		<li>
+			<a href="materiaalgoritimos.html"> Algoritimos</a>
+		</li>
+		<li>
+			<a href="materiabases.html"> Bases Para Internet</a>
+		</li>
+		<li>
+			<a href="materiacriacao.html"> Criação de Conteúdo na Web </a>
+		</li>
+		<li>
+			<a href="materiadesign.html"> Design Digital</a>
+		</li>
+		<li>
+			<a href="materiamatematica.html"> Fundamentos de Matemática Elementar</a>
+		</li>
+		<li>
+			<a href="materiapadroes.html"> Padrões de Projeto de Sítios Internet I </a>
+		</li>
+		<li>
+			<a href="materiaportugues.html"> Leitura e Produção de Textos </a>
+		</li>
+		<li>
+			<a href="materiaingles.html"> Inglês </a>
+		</li>
+    </ul>
+        </li>
+        <li>
+        	<a href="instituicao.html">Instituição</a>
+        </li>
+        <li>
+        	<a href="contato.html">Contato</a>
+        </li>                
 	</ul>
-	</nav>
-	     <article class="materias">
+		</nav>
+		<!--/menu-->
+
+	<!--conteúdo principal -->	
+	<article>
 						
-		   	<h1 class="titulomateria"> Leitura e Produção de Textos</h1>
-            
-		   		<br/>
-		   		<br/>
-			
-    			<p class="textoportugues" >Ampliar o domínio da comunicação escrita e oral, por meio da aprendizagem e produção de textos existentes no âmbito acadêmico e tecnológico. Favorecer a interpretação de textos relativos à área do curso. Objetivos específicos. Produzir textos de interesse para o desenvolvimento do profissional</p>
+		   	<h2> Leitura e Produção de Textos</h2>
 
-    			<img class="imagenportugues" alt="Logotipo do site"  src="imagens/materiaportugues.jpg"/>
+    			<p>Ampliar o domínio da comunicação escrita e oral, por meio da aprendizagem e produção de textos existentes no âmbito acadêmico e tecnológico. Favorecer a interpretação de textos relativos à área do curso. Objetivos específicos. Produzir textos de interesse para o desenvolvimento do profissional</p>
 
+    		<!--Div que irá centralizar as imagens do article-->	
+    		<div class="imagens">	
+    			<img src="imagens/materiaportugues.jpg"/>
+    		</div>
+    		<!--/Div -->
     			<p> Em Leitura e Produção de Texto a professora Selma nos abordou com o intuito de desenvolver artigos para sites, ou outro modo de publicação. nos foi mostrado dicas de apresentação em situações onde temos que falar em público, o modo de desenvolver cartas, e-mails, relatórios empresariais. Pois temos de ter uma noção de como fazer quando chegar no mercado de trabalho.</p>
 				<p>Foi visto também maneiras de citação, e referências de acordo com as normas da ABNT, com o objetivo de nos ajudar a diante no desenvolvimento do TG (trabalho de graduação) ou mesmo em situações em que podemos precisar; Também formulamos nosso curriculo, com todas as normas corretas! </p>
-
-    			<br/>
-		   		<br/>
-		   		<br/>
-		   		<br/>
 			
 			<h2>Profª Selma Marques da Silva Fávaro</h2>
-            
-				<img class="imagensprofessores" alt="Logotipo do site"  src="imagens/profselma.jpg"/>
-
-				<br/>
-		   		<br/>
-			
+            	
+            	<!--Foto da Professora Selma -->
+				<img class="imagensprofessores" alt="Professora Selma"  src="imagens/profselma.jpg"/>
+				
            		 <p>Toda a sua formação é direcionada à área de Letras. Possui graduação pela UNESP/Assis (Licenciatura Plena em Português, Francês e Espanhol), 
 				mestrado pela UFMS/Três Lagoas (área de concentração: Estudos Linguísticos) e, atualmente, cursa doutorado, na UFMS/Três Lagoas, na mesma área. 
 				É docente efetiva da FATEC Jales, onde ministra a disciplina de Espanhol, Português e Metodologia da Pesquisa Científica. É coautora do Livro-Texto 
 				da disciplina de Espanhol do curso de Tecnologia em Processos Gerenciais, modalidade à distância, oferecido pelo Centro Paula Souza no âmbito do 
 				Programa Univesp. Suas pesquisas são direcionadas à Linguística Aplicada e a Análise do Discurso de Linha Francesa.</p>
-       </article> 
+    </article> 
+    <!--/fim do conteúdo principal -->
+
+    	<!--Rodapé -->
 		<footer>
             <p>Copyright &copy; Lucas Toledo 2018, todos os direitos reservados.</p>
+            <!--Imagem do botão "back to top" -->
+            <a id="topo"><img src="imagens/topo.png"></a>
 		</footer>	
     </section>
 </body>

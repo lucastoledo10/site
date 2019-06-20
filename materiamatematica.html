@@ -3,7 +3,10 @@
 <head>
     <title> Matematica </title>
 	<meta charset="UTF-8"/>
-	<link rel="stylesheet" href="css/estilos.css" type="text/css" media="all" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/estilos.css" type="text/css" media="all">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="JavaScript/topo.js"></script>
 </head>
 <body>
 	
@@ -11,60 +14,82 @@
         <header>
 			<img alt="Logotipo do site"  src="imagens/logotoledotech.png"/>
         </header>
-		<nav>
-  <ul class="menu">
-       <li><a href="index.html">Início</a></li>
-            <li><a> Disciplinas </a>
-                <ul>
-					  <li><a href="materiaalgoritimos.html"> Algoritimos</a></li>
-					  <li><a href="materiabases.html"> Bases Para Internet</a></li>
-					  <li><a href="materiacriacao.html"> Criação de Conteúdo na Web </a></li>
-					  <li><a href="materiadesign.html"> Design Digital</a></li>
-					  <li><a href="materiamatematica.html"> Fundamentos de Matemática Elementar</a></li>
-					  <li><a href="materiapadroes.html"> Padrões de Projeto de Sítios Internet I </a></li>
-					  <li><a href="materiaportugues.html"> Leitura e Produção de Textos </a></li>
-					  <li><a href="materiaingles.html"> Inglês </a></li>
-                </ul>
-            </li>
-        <li><a href="instituicao.html">Instituição</a></li>
-        <li><a href="contato.html">Contato</a></li>                
+	
+
+        <!--menu-->
+		<nav class="menu">
+  	<ul>
+        <li>
+        	<a href="index.html">Início</a>
+        </li>
+        <li>
+            <a> Disciplinas </a>
+    <ul>
+		<li>
+			<a href="materiaalgoritimos.html"> Algoritimos</a>
+		</li>
+		<li>
+			<a href="materiabases.html"> Bases Para Internet</a>
+		</li>
+		<li>
+			<a href="materiacriacao.html"> Criação de Conteúdo na Web </a>
+		</li>
+		<li>
+			<a href="materiadesign.html"> Design Digital</a>
+		</li>
+		<li>
+			<a href="materiamatematica.html"> Fundamentos de Matemática Elementar</a>
+		</li>
+		<li>
+			<a href="materiapadroes.html"> Padrões de Projeto de Sítios Internet I </a>
+		</li>
+		<li>
+			<a href="materiaportugues.html"> Leitura e Produção de Textos </a>
+		</li>
+		<li>
+			<a href="materiaingles.html"> Inglês </a>
+		</li>
+    </ul>
+        </li>
+        <li>
+        	<a href="instituicao.html">Instituição</a>
+        </li>
+        <li>
+        	<a href="contato.html">Contato</a>
+        </li>                
 	</ul>
-	</nav>
+		</nav>
+		<!--/menu-->
 
-	     <article class="materias">
+		<!--Conteúd principal-->
+	     <article>
 
-		   <h1 class="titulomateria">Fundamentos de Matemática Elementar</h1>
-            
-            	<br/>
-            	<br/>
+		   <h2>Fundamentos de Matemática Elementar</h2>
 
+		   <!--Div que irá centralizar as imagens do article-->
+		   	<div class="imagens">	
 				<img class="fotomatematica" alt="Foto de formula"  src="imagens/materiamatematica.png"/>
-
-				<br/>
-            	<br/>
+			</div>	
 
            	<h2>Objetivos da matéria:</h2>
 
-           		<br/>
-            	<br/>
-
            		 <p> Discutir os conceitos básicos de matemática. Objetivos específicos: O aluno será capaz de compreender as ferramentas básicas em matemática dos principais conteúdos do ensino básico, fundamental e médio necessários para as demais disciplinas do curso. Saber utilizar softwares e aplicativos como ferramentas auxiliares à resolução de problemas.</p>
 
-           		<br/>
-            	<br/>
-
 			<h2>Profª Andrea Piranhe Da Silva</h2>
-            
+            	
+            	<!--Foto da Professora Andrea-->
 				<img class="imagensprofessores" alt="Logotipo do site"  src="imagens/profandrea.jpg"/>
-
-				<br/>
-				<br/>
 			
            		 <p>Possui graduação em Licenciatura Em Matemática pela Universidade Estadual Paulista Júlio de Mesquita Filho(1999), mestrado em Matemática pela Universidade Estadual Paulista Júlio de Mesquita Filho(2002) e doutorado em Ciências da Computaçã o e Matemática Computacional pela Universidade de São Paulo(2005). Atualmente é Docente da Faculdade de Tecnologia de Jales, Diretora da Faculdade de Tecnologia de Jales, Membro da Congregação da Faculdade de Tecnologia de Jales e Membro de corpo editorial do Reagro - Revista Eletrônica de Agronegócio da FATEC Jales. Tem experiência na área de Matemática. Atuando principalmente nos seguintes temas:Polinômios de Szegö, Relação de recorrência de três termos, Polinômios ortogonais no círculo unitário, Polinômios ortogonais, Zeros de polinômios. </p>
 
        </article> 
+
+
+       <!--Rodapé-->
 		<footer>
             <p>Copyright &copy; Lucas Toledo 2018, todos os direitos reservados.</p>
+            <!--Imagem do botão "back to top" -->
+            <a id="topo"><img src="imagens/topo.png"></a>
 		</footer>	
     </section>
 </body>
