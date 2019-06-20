@@ -1,0 +1,177 @@
+<!DOCTYPE html">
+<html lang="pt-br">
+<head>
+    <title> Algoritimos </title>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" href="css/estilos.css" type="text/css" media="all" />
+</head>
+<body>
+	
+ 	<section> 
+        <header>
+			<img alt="Logotipo do site"  src="imagens/logotoledotech.png"/>
+        </header>
+		<nav>
+  <ul class="menu">
+        <li><a href="index.html">Início</a></li>
+            <li><a> Disciplinas </a>
+                <ul>
+					  <li><a href="materiaalgoritimos.html"> Algoritimos</a></li>
+					  <li><a href="materiabases.html"> Bases Para Internet</a></li>
+					  <li><a href="materiacriacao.html"> Criação de Conteúdo na Web </a></li>
+					  <li><a href="materiadesign.html"> Design Digital</a></li>
+					  <li><a href="materiamatematica.html"> Fundamentos de Matemática Elementar</a></li>
+					  <li><a href="materiapadroes.html"> Padrões de Projeto de Sítios Internet I </a></li>
+					  <li><a href="materiaportugues.html"> Leitura e Produção de Textos </a></li>
+					  <li><a href="materiaingles.html"> Inglês </a></li>
+                </ul>
+            </li>
+        <li><a href="instituicao.html">Instituição</a></li>
+        <li><a href="contato.html">Contato</a></li>                
+	</ul>
+	</nav>
+		 <article class="materias">
+
+		   <h1 class="titulomateria"> Algoritmos e Lógica de Programação</h1>
+		  
+		   		<br/>
+		   		<br/>
+
+            	<p> Tem como objetivo iniciar a formação em programação de computadores por meio de uma linguagem facilitadora do aprendizado de algoritmos, preferencialmente alguma uma linguagem de amplo emprego no mercado. Desenvolver as habilidades básicas de programação de computadores aplicando os conceitos estudados.</p>
+				<p> Estudamos Conceitos básicos sobre algoritmos e métodos para sua construção. Tipos de dados e variáveis. Álgebra booleana. Estruturas fundamentais de programas: 
+				sequencial, condicional e com repetição. Funções. Variáveis compostas homogêneas: vetores e matrizes.</p>
+				<p> Abaixo mostro exemplos de laços de repetição que montamos em nossas aulas: </p>
+			
+				<br/>
+				<br/>
+
+			<h2> If </h2>
+
+				<br/>
+
+				<p>A instrução se (algoritmo) e if (Linguagem C) é uma das instruções de controle de fluxo.</p>
+				<p>A instrução se (if) funciona assim:</p>
+				<p>– A condição é avaliada;</p>
+				<p>– Se o resultado da condição é VERDADEIRO, executa a instrução1;</p>
+				<p>– Senão sendo o resultado da condição FALSO, executa a instrução2.</p>
+
+				<br/>
+
+				<img class="imagemalgoritimo" alt="if"  src="imagens/algoritimosifelse.png"/>
+
+				<br/>
+				<br/>
+				<br/>
+
+			<h2> Switch </h2>
+
+				<br/>
+				<br/>
+			
+				<p> A instrução switch adapta-se à tomada de decisões em que o número de possibilidades é elevado (em geral maior que 2, se não usa-se o if .. else), de forma a reduzir a complexidade de if .. else consecutivos e encadeados. </p>
+				<p> Na sintaxe do switch, a expressão representa qualquer informação cujo resultado seja um valor numérico dos tipos char, int ou long. A expressão é avaliada e, em seguida, o
+				switch compara o resultado da expressão com o valor de cada constante que segue em cada um dos case. O conjunto de todos os valores possíveis para a expressão é colocado entre 
+				chaves.</p>
+				<p> Se o valor da expressão for igual à alguma das constantes que seguem os vários case, então são executadas as instruções que seguem o case correspondente; </p>
+				<p> Se o valor da expressão não for igual a nenhuma das constantes apresentadas pelos case, então são executadas as instruções que seguem o default; </p>
+				<p> Como se pode observar pela sintaxe, o default é opcional. No caso de o valor da expressão não ser igual a nenhum dos case, nada é executado, terminando o switch.
+				O programa continua na instrução seguinte ao switch: </p>
+
+				<br/>
+
+				<img class="imagemalgoritimo2" alt="Exemplo switch"  src="imagens/algoritimosswitch.png"/>
+
+				<br/>
+				<br/>
+				<br/>
+
+			<h2> Wile </h2>
+
+				<br/>
+				<br/>
+
+				<p> A técnica denominada estrutura de repetição ou laço de repetição, é uma estrutura de programação que facilita repetir
+				determinados trechos de código. Essa técnica reduz o trabalho de programação, principalmente quando é preciso repetir várias vezes alguma ação importante no programa.</p>
+				<p> A estrutura de repetição pode ser classificada em duas formas, sendo: estrutura de repetição interativa ou estrutura de repetição iterativa. São interativos quando necessitam da intervenção de um usuário do programa para repetir a próxima ação um indeterminado número de vezes, são laços iterativos quando executam as repetições previstas de forma automática um número de vezes.</p>
+				<p> A instrução enquanto (algoritmo) e while (Linguagem C) executa uma instrução ou bloco de instruções enquanto uma determinada condição for verdadeira. A sua sintaxe é:</p>
+				<p> O seu funcionamento segue os passos:</p>
+				<p> 1. A condição é avaliada;</p>
+				<p> 2. Se o resultado da avaliação for verdadeiro, é executada a instrução ou bloco de instruções ali presente, associada ao while.</p>
+				<p> 3. Volta ao ponto 2.</p>
+				<p> 4. Se o resultado da avaliação for falso, o laço termina e o programa continua na instrução imediatamente após o while.</p>
+
+				<br/>
+				<br/>
+
+				<img class="imagemalgoritimo3" alt="Exemplo while"  src="imagens/algoritimoswhile.png"/>
+
+				<br/>
+				<br/>
+		
+			<h2> Do whie </h2>
+
+				<br/>
+				<br/>
+
+				<p> A estrutura de repetição do .. while realiza o teste da condição no final do corpo do laço (instrução ou bloco de instruções) e não antes, como acontece com o laço while.</p>
+				<p> Dessa forma o corpo do laço do .. while é executado pelo menos uma vez, enquanto no laço while o corpo do laço pode nunca ser executado (caso a condição seja falsa).</p>
+				<p>A instrução repita (algoritmo) e do .. while (Linguagem C) executa uma instrução ou bloco de instruções enquanto uma 	determinada condição for verdadeira. A sua sintaxe é:</p>
+				<p>O seu funcionamento seguem os passos:</p>
+				<p>1. A instrução (ou bloco de instruções é executada);</p>
+         	   <p>2. A condição é avaliada;</p>
+				<p>3. Se o resultado da condição for verdadeiro, volta ao ponto 1.</p>
+				<p>4. Se o resultado da condição for falso, termina o laço e o programa continua na instrução seguinte ao laço.</p>
+
+				<br/>
+				<br/>
+
+				<img class="imagemalgoritimo4" alt="Exemplo do while"  src="imagens/algoritimosdowhile.png"/>
+
+				<br/>
+				<br/>
+				<br/>
+	
+			<h2> For </h2>
+
+				<br/>
+				<br/>
+
+				<p>A estrutura de repetição for adapta-se particularmente a situações em que o número de iterações é conhecido.</p>
+				<p>A instrução para .. faca (algoritmo) e for (Linguagem C) executa uma instrução ou bloco de instruções enquanto uma determinada condição for verdadeira. A sua sintaxe é:</p>
+				<P>O seu funcionamento seguem os passos::</p>
+				<P>1. A variável é inicializada com um valor em cargas iniciais.:</p>
+				<P>2. A condição é avaliada;:</p>
+				<P>3. Se o resultado da condição for falso, então o laço for termina e o programa continua na instrução imediatamente a seguir:</p>
+				<P>4. Se o resultado da condição for verdadeiro, então é executada a instrução (ou bloco de instruções) do laço.:</p>
+				<P>5. Depois de executada a instrução presente no laço, é executada a pós-instrução. Nesse componente do laço for são 	realizadas as alterações para passar à próxima iteração do laço.:</p>
+				<P>6. Volta ao ponto 2.:</p>
+
+				<img class="imagemalgoritimo5" alt="Exemplo for"  src="imagens/algoritimosfor.png"/>
+
+				<br/>
+				<br/>
+				<br/>
+				<br/> 	
+
+			<h2>Profª. Ligia Rodrigues Prete</h2>
+            
+				<img class="imagensprofessores" alt="Logotipo do site"  src="imagens/profligia.jpg"/>
+
+				<br/>
+				<br/>
+			
+      	   	    <p> Possui Graduação em Processamento de Dados pela Universidade Paulista (1999). Pós-Graduação Lato Sensu em Informática na 	  área de concentração em 
+				Desenvolvimento de Sistemas sob a Tecnologia Cliente/Servidor e Internet pelo Centro Universitário de Rio Preto (2001). Licenciatura Plena em Informática 
+				pelo Programa Especial de Formação Pedagógica de Docentes para as Disciplinas do Currículo da Educação Profissional de Nível Médio do Centro Estadual de 
+				Educação Tecnológica Paula Souza (2008). Pós-Graduação Stricto Sensu (Mestrado) em Engenharia Elétrica na área de concentração em Automação pela 
+				Universidade Estadual Paulista Júlio de Mesquita Filho (2011). Pós-Graduação Stricto Sensu (Doutorado) em Engenharia Elétrica na área de concentração 
+				em Automação pela Universidade Estadual Paulista Júlio de Mesquita Filho (2016). Atualmente é docente do Centro Estadual de Educação Tecnológica Paula 
+				Souza (CEETEPS) na Faculdade de Tecnologia de Jales "Professor José Camargo". Tem experiência na área de Ciência da Computação, 	com ênfase em 
+				desenvolvimento de sistemas, atuando principalmente nos seguintes temas: programação, banco de dados, redes e automação. </p>
+       </article> 
+		<footer>
+            <p>Copyright &copy; Lucas Toledo 2018, todos os direitos reservados.</p>
+		</footer>	
+    </section>
+</body>
+</html>
